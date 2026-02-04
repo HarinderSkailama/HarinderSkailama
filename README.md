@@ -1,6 +1,17 @@
-- 👋 Hi, I’m @HarinderSkailama
+# HarinderSkailama
 
-<!---
-HarinderSkailama/HarinderSkailama is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Hi, I'm @HarinderSkailama
+
+## About
+
+This is a dummy repository created for testing and demonstration purposes.
+
+## Getting Started
+
+1. Clone the repository
+2. Explore the files
+3. Make your own changes
+
+## License
+
+This project is open source.
