@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="170" viewBox="0 0 350 170" fill="none">
+  <style>
+    .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #fe428e; }
+    .lang-name { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #a9fef7; }
+    .lang-pct { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #a9fef7; }
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes growBar { from { width: 0; } }
+    .fade-in { animation: fadeIn 0.8s ease-in-out forwards; }
+  </style>
+
+  <rect x="0.5" y="0.5" rx="4.5" width="349" height="169" fill="#141321" stroke="none"/>
+
+  <g transform="translate(25, 35)">
+    <text class="header" x="0" y="0">Most Used Languages</text>
+  </g>
+
+  <!-- Combined progress bar -->
+  <g transform="translate(25, 55)">
+    <rect rx="5" ry="5" x="0" y="0" width="300" height="8" fill="#333"/>
+    <!-- JavaScript 70.33% -->
+    <rect rx="5" ry="0" x="0" y="0" width="211" height="8" fill="#f1e05a">
+      <animate attributeName="width" from="0" to="211" dur="0.8s" fill="freeze"/>
+    </rect>
+    <!-- Python 18.64% -->
+    <rect x="211" y="0" width="56" height="8" fill="#3572A5">
+      <animate attributeName="width" from="0" to="56" dur="0.8s" fill="freeze" begin="0.3s"/>
+    </rect>
+    <!-- Shell 11.02% -->
+    <rect rx="0" ry="5" x="267" y="0" width="33" height="8" fill="#89e051">
+      <animate attributeName="width" from="0" to="33" dur="0.8s" fill="freeze" begin="0.5s"/>
+    </rect>
+  </g>
+
+  <!-- JavaScript -->
+  <g transform="translate(25, 90)" class="fade-in" style="animation-delay: 200ms">
+    <circle cx="6" cy="5" r="6" fill="#f1e05a"/>
+    <text class="lang-name" x="18" y="9">JavaScript</text>
+    <text class="lang-pct" x="110" y="9">70.33%</text>
+  </g>
+
+  <!-- Python -->
+  <g transform="translate(195, 90)" class="fade-in" style="animation-delay: 400ms">
+    <circle cx="6" cy="5" r="6" fill="#3572A5"/>
+    <text class="lang-name" x="18" y="9">Python</text>
+    <text class="lang-pct" x="80" y="9">18.64%</text>
+  </g>
+
+  <!-- Shell -->
+  <g transform="translate(25, 120)" class="fade-in" style="animation-delay: 600ms">
+    <circle cx="6" cy="5" r="6" fill="#89e051"/>
+    <text class="lang-name" x="18" y="9">Shell</text>
+    <text class="lang-pct" x="110" y="9">11.02%</text>
+  </g>
+</svg>
