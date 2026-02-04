@@ -33,9 +33,9 @@ fun_fact: "I mass-mass like coding! 🎯"
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img src="/assets/github-stats.svg" alt="Harinder's GitHub Stats" />
-  <br/>
-  <img src="/assets/top-languages.svg" alt="Top Languages" />
+  <img src="assets/github-stats.svg" alt="Harinder's GitHub Stats" />
+  <br/><br/>
+  <img src="assets/top-languages.svg" alt="Top Languages" />
 </div>
 
 ---
