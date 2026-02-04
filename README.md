@@ -33,11 +33,9 @@ fun_fact: "I mass-mass like coding! 🎯"
 ### 📊 GitHub Stats
 
 <div align="center">
-
-![Harinder's GitHub Stats](https://github-readme-stats.vercel.app/api?username=HarinderSkailama&show_icons=true&theme=radical&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=HarinderSkailama&layout=compact&theme=radical&hide_border=true)
-
+  <img src="https://github-readme-stats.vercel.app/api?username=HarinderSkailama&show_icons=true&theme=radical&hide_border=true&cache_seconds=86400" alt="Harinder's GitHub Stats" />
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HarinderSkailama&layout=compact&theme=radical&hide_border=true&cache_seconds=86400" alt="Top Languages" />
 </div>
 
 ---
